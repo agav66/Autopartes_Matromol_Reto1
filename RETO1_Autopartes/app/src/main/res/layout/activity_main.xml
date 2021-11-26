@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imvProducto1"
+            android:layout_width="111dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/martillo" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/edtProductoNombre1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Martillo Elite de Seguridad" />
+
+            <TextView
+                android:id="@+id/edtProductoPrecio1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="$4.600,oo" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnComprar1"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:text="Comprar" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imvProducto2"
+            android:layout_width="111dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/espejo" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/edtProductoNombre2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Espejo Talvo"
+                android:fontFamily="@font/nuevafuente"/>
+
+            <TextView
+                android:id="@+id/edtProductoPrecio2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="$8.900,oo" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnComprar2"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:text="Comprar" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imvProducto"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/timbre" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="101dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/edtProductoNombre3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Timbre Tubo Pasa Manos" />
+
+            <TextView
+                android:id="@+id/edtProductoPrecio3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="$4.950,oo" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnComprar3"
+            android:layout_width="110dp"
+            android:layout_height="102dp"
+            android:text="Comprar" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
