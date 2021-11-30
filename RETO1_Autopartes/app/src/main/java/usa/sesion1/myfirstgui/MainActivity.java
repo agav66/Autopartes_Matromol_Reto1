@@ -20,16 +20,6 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayUseLogoEnabled(true);
 
 
-        /* Para lograrlo vamos a comenzar a desarrollar una primera versión de una App móvil
-        que muestre una tienda de Autopartes, cuyos productos se puedan visualizar a través de una
-        primera pantalla con una interfaz gráfica que presente los datos de forma agradable a los usuarios.
-         Para lograrlo este primer diseño de pantalla debe contener:
-
-        4. Un logo personalizado de acceso a la App desplegado en el dispositivo móvil y
-        que le de identidad a la App.
-
-
-        */
 
     }
 
@@ -43,18 +33,14 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item){
         /*
         switch (item.getItemId()){
-            case R.id.opcrearcuenta:
+            case R.id. Lleva a Pagina Servicios:
                 //Aquí va todo el código que se ejecuta al momentar de seleccionar esta opción de Menú
-                Toast.makeText(getApplicationContext(), "Usted ha seleccionado la opción Crear cuenta", Toast.LENGTH_LONG).show();
-            case R.id.opgoogle:
+                Toast.makeText(getApplicationContext(), "Usted ha seleccionado la opción Servicios", Toast.LENGTH_LONG).show();
+            case R.id.Sucursales:
                 //Aquí va todo el código que se ejecuta al momento de seleccionar esta opción de Menú
-                Toast.makeText(getApplicationContext(), "Usted ha seleccionado la opción Iniciar con Google", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "Usted ha seleccionado la opción Sucursales", Toast.LENGTH_LONG).show();
             case R.id.resetpass:
-                //Aquí va todo el código que se ejecuta al momentar de seleccionar esta opción de Menú
-                Toast.makeText(getApplicationContext(), "Usted ha seleccionado la opción Reset Pass", Toast.LENGTH_LONG).show();
-            case R.id.initelefono:
-                //Aquí va todo el código que se ejecuta al momentar de seleccionar esta opción de Menú
-                Toast.makeText(getApplicationContext(), "Usted ha seleccionado la opción Iniciar por telefono", Toast.LENGTH_LONG).show();
+
             default:
                 return super.onOptionsItemSelected(item);
         }

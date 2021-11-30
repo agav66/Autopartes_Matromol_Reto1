@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/titlep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aladin_regular"
+        android:gravity="center"
+        android:text="@string/menu_lamparas"
+        android:textAlignment="center"
+        android:textColor="#050505"
+        android:textSize="50dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                android:id="@+id/img1"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:src="@drawable/espejo" />
+
+                <TextView
+                    android:id="@+id/tView2"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/hammer_smith_one_regular"
+                    android:text="Espejo Talvo                       Precio:  $14.200,oo"
+                    android:textAlignment="center"
+                    android:textColor="#040303"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:src="@drawable/martillo" />
+
+                <TextView
+                    android:id="@+id/tView3"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/hammer_smith_one_regular"
+                    android:text="Martillo Elite de Seguridad               Precio: $4.400,oo"
+                    android:textAlignment="center"
+                    android:textColor="#0B0B0B"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:src="@drawable/minikenwoth89" />
+
+                <TextView
+                    android:id="@+id/tView4"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/hammer_smith_one_regular"
+                    android:text="L. MiniKenworth 89          Precio:$9.300,oo"
+                    android:textAlignment="center"
+                    android:textColor="#0B0B0B"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img4"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/tercer_stop" />
+
+                <TextView
+                    android:id="@+id/tView5"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/hammer_smith_one_regular"
+                    android:text="L. 3er Stop Led Halo          Precio;$28.500,oo"
+                    android:textAlignment="center"
+                    android:textColor="#0B0B0B"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img5"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/timbre" />
+
+                <TextView
+                    android:id="@+id/tView6"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/hammer_smith_one_regular"
+                    android:text="Timbre Tubo                     Precio:$5.600,oo"
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img6"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/senales" />
+
+                <TextView
+                    android:id="@+id/tView7"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/hammer_smith_one_regular"
+                    android:text="Triangulo de Seguridad           Precio:$4.350,oo"
+                    android:textAlignment="center"
+                    android:textColor="#090909"
+                    android:textSize="12sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

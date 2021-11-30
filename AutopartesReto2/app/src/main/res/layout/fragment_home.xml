@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/titlep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aladin_regular"
+        android:gravity="center"
+        android:text="Servicios"
+        android:textAlignment="center"
+        android:textColor="#050505"
+        android:textSize="50dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgh1"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:background="#BD0B25"
+                    android:src="@drawable/inyeccion" />
+
+                <TextView
+                    android:id="@+id/tView2"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="serif"
+                    android:text="Inyeccion de Plastico"
+                    android:textAlignment="center"
+                    android:textColor="#040303"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgh2"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:background="#F4E9E9"
+                    android:src="@drawable/ensamble_producto" />
+
+                <TextView
+                    android:id="@+id/tView3"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="serif"
+                    android:text="Ensamble de Lamparas"
+                    android:textAlignment="center"
+                    android:textColor="#0B0B0B"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgh3"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:background="#F3213A"
+                    android:src="@drawable/transporte_ejecutivos" />
+
+                <TextView
+                    android:id="@+id/tView4"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="serif"
+                    android:text="Transporte de Ejecutivos"
+                    android:textAlignment="center"
+                    android:textColor="#0B0B0B"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
